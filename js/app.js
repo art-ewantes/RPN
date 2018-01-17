@@ -22,7 +22,7 @@
                         if(a == 0){
                             resultStack.push(42);
                         }else{
-                            resultStack.push(( b%a + a )%a);
+                            resultStack.push(((b % a) + a ) % a);
                         }
                     }else if(postfix[i] === "/"){
                         if(a == 0){
